@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 class="logo">&lt;T/&gt;</h1>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="sobre-habilidades">
+        <div id="sobre">
+          <h2>Sobre Mim</h2>
+          <img
+            src="./assets/coding-avatar.png"
+            alt="Avatar image"
+            class="avatar"
+          />
+          <h1>Thiago Gomes</h1>
+          <p>
+            Desenvolvedor Full Stack com mais de 2 anos criando sites com
+            inferfaces modernas e responsivas, com foco na experiência do
+            usuário.
+          </p>
+        </div>
+
+        <div id="habilidades">
+          <h2>Habilidades</h2>
+          <div class="cards">
+            <div class="card">
+              <h3>Frontend</h3>
+              <ul>
+                <li>HTML5 <i class="fab fa-html5"></i></li>
+                <li>CSS3 <i class="fab fa-css3-alt"></i></li>
+                <li>JavaScript <i class="fab fa-js"></i></li>
+                <li>React <i class="fab fa-react"></i></li>
+                <li>Angular <i class="fab fa-angular"></i></li>
+                <li>Tailwind <i class="fas fa-wind"></i></li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Backend & Cloud</h3>
+              <ul>
+                <li>Java <i class="fab fa-java"></i></li>
+                <li>Spring Boot <i class="fas fa-leaf"></i></li>
+                <li>JUnit <i class="fas fa-vial"></i></li>
+                <li>API Rest <i class="fas fa-plug"></i></li>
+                <li>AWS 2x Certified <i class="fab fa-aws"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="articles">
+          <article>
+            <img
+              src="./assets/weather-currency-ss.png"
+              alt="weather+currency app screenshot"
+            />
+            <h3>Update-me</h3>
+            <p>
+              Website criado para mostrar a cotação atual de moedas e previsão
+              do tempo diária ao usuário, utilizando diversas APIs.
+            </p>
+            <button class="neon" onclick="window.open('https://github.com/thiago-rgomes/update-me', '_blank')">Visualizar</button>
+          </article>
+          <article>
+            <img
+              src="./assets/furniro-full-ss.png"
+              alt="e-commerce app screenshot"
+            />
+            <h3>E-commerce</h3>
+            <p>
+              Aplicação de e-commerce totalmente responsiva, desenvolvida com
+              React e Tailwind CSS. Possui filtros dinâmicos, carrinho de
+              compras e autenticação de usuários.
+            </p>
+            <button class="neon" onclick="window.open('https://github.com/thiago-rgomes/desafio3-semana12-tirex', '_blank')">Visualizar</button>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <aside id="contato">
+      <h2>Contato</h2>
+      <h3>Quer conversar ou saber mais sobre os projetos?</h3>
+      <ul>
+        <li>
+          <a href="https://github.com/thiago-rgomes" target="_blank">
+            <button class="neon">GitHub</button>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/th-gomes/" target="_blank"
+            >
+            <button class="neon">LinkedIn</button></a
+          >
+        </li>
+      </ul>
+    </aside>
+
+    <footer>
+      <p>&copy; 2025. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
